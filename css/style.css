@@ -1,0 +1,122 @@
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#heroesContainer {
+    max-width: 80%;
+    min-height: 200px;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.menu {
+    background-color: rgb(13, 12, 12);
+    padding: 10px 0;
+}
+.cards-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+main {
+    background-image: url("../img/gwent.jpg");
+    background-repeat: repeat;
+    min-height: 800px;
+    background-size: 150px 150px;
+}
+.cards-link:hover {
+    color: orange;
+}
+.title {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    display: block;
+}
+.menu_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+.heroItem {
+    width: 290px;
+    min-height: 150px;
+}
+button {
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+}
+button:hover {
+    cursor: pointer;
+}
+input {
+    padding: 5px;
+    margin: 0 11px;
+    transition: 0.3s ease-out;
+}
+#heroImage {
+    color: white;
+}
+.heroName {
+    font-size: 22px;
+}
+.heroDeck {
+    font-size: 21px;
+}
+input:focus {
+    box-shadow: rgb(248, 241, 54) 0px 1px 4px 2px;
+}
+.deck-image {
+    max-width: 100%;
+}
+.heroDeck {
+    color: rgb(248, 241, 54);
+}
+.warning {
+    color: red;
+    text-align: center;
+    margin: 15px 0;
+}
+.deck__info {
+    margin-top: 5px;
+    background-color: rgb(36, 33, 33);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+}
+@media only screen and (max-width: 768px) {
+    .menu {
+        padding-top: 10px;
+    }
+    .cards-link {
+        text-align: center;
+        display: block;
+    }
+    .menu_wrapper {
+        display: block;
+    }
+    input {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}

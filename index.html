@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вселенная ГВИНТА</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<header>
+<div class="menu">
+    <h1 class="title">Вселенная ГВИНТА</h1>
+    <div class="menu_wrapper">
+        <a class="cards-link" href="https://vedmak.fandom.com/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%93%D0%B2%D0%B8%D0%BD%D1%82_(%D0%92%D0%B5%D0%B4%D1%8C%D0%BC%D0%B0%D0%BA_3)" target="_blank">Колоды</a>
+            <input type="text" id="heroName" placeholder="Имя героя"  autocomplete="off"> 
+            <input type="text" id="heroDeck" placeholder="Колода героя"  autocomplete="off">
+            <input type="file" id="heroImage" accept="image/webp">
+            
+    </div>
+    <p class="warning">Изображение должно быть в webp формате!</p>
+    <button id="addButton">Добавить героя</button>
+    <button id="musicButton">Включить музыку</button>
+</div>
+</header>
+<main>
+    <div id="heroesContainer">
+    </div>
+</main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
